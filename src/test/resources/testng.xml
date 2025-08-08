@@ -4,7 +4,7 @@
 <suite name="Web Automation Test Suite" verbose="1" parallel="tests" thread-count="2">
 
     <!-- Parameters to be injected into BaseTest using @Parameters annotation -->
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <parameter name="runMode" value="local"/>
     <parameter name="gridUrl" value="http://localhost:4444/wd/hub"/>
 
