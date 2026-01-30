@@ -14,7 +14,7 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     @Parameters({"browser", "runMode", "gridUrl"})
-    public void setUp(@Optional("chrome") String browser,
+    public void setUp(@Optional("firefox") String browser,
                       @Optional("local") String runMode,
                       @Optional("http://localhost:4444/") String gridUrl) {
 

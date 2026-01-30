@@ -99,7 +99,7 @@ src/
 ### Sample content:
 
 - base_url=https://example.com
-- browser=chrome
+- browser=firefox
 - run_mode=local
 - grid_url=http://localhost:4444/wd/hub
 - implicit_wait=10
